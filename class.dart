@@ -10,7 +10,7 @@ void main() {
   komp2.merek = 'Lenovo';
   komp2.slotram.add(8);
   komp2.slotram.add(8);
-  komp2.slotpenyimpanan.add (2048);
+  komp2.slotpenyimpanan.add(2048);
   komp2.cpu = 'I9 13900HX';
   komp2.cetak();
 
@@ -45,7 +45,8 @@ class Komputer {
       print('komputer ini punya slot ram ${i + 1} ${slotram[i]} gb');
     }
     for (var i = 0; i < slotpenyimpanan.length; i++) {
-      print('komputer ini punya slot penyimpanan ${i + 1} ${slotpenyimpanan[i]} gb');
+      print(
+          'komputer ini punya slot penyimpanan ${i + 1} ${slotpenyimpanan[i]} gb');
     }
     print('komputer ini memilki cpu $cpu');
   }
